@@ -1,6 +1,6 @@
 # Nofluffcars - frontend
 
-< description obviously >
+![Screenshot](https://github.com/mtx210/Nofluffcars-frontend/tree/master/src/assets/screen.jpg?raw=true)
 
 ## Running with Docker
 
