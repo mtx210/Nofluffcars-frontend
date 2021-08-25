@@ -1,5 +1,5 @@
 export interface Manufacturer {
-  id: String;
-  idCountry: String;
-  name: String;
+  id: string;
+  idCountry: string;
+  name: string;
 }

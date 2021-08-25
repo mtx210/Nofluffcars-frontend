@@ -8,11 +8,11 @@ import {Injectable} from "@angular/core";
 @Injectable({
   providedIn: 'root'
 })
-export class ManufacturerService {
+export class ManufacturersService {
 
   constructor(private httpClient: HttpClient) {}
 
   public getManufacturers(): Observable<Array<Manufacturer>>{
-      return this.httpClient.get<Array<Manufacturer>>(Config.getUrl(Url.MANUFACTURERS));
+      return this.httpClient.get<Array<Manufacturer>>(Config.getUrl('manufacturers'));
   }
 }
