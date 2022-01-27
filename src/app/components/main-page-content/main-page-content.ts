@@ -18,10 +18,11 @@ export class MainPageContent implements OnInit {
               private generationService: GenerationsService) { }
 
   manufacturers: Array<Manufacturer> = new Array<Manufacturer>();
+  selectedManufacturer = '-';
   models: Array<Model> = new Array<Model>();
+  selectedModel = '-';
   generations: Array<Generation> = new Array<Generation>();
-  selectedManufacturerId = '';
-  selectedModelId = '';
+  selectedGeneration = '-';
 
   ngOnInit(): void {
     this.manufacturerService.getManufacturers().subscribe(response => {
@@ -30,28 +31,38 @@ export class MainPageContent implements OnInit {
   }
 
   initModels(): void {
-    if(this.selectedManufacturerId != "-"){
-      this.modelService.getModels(this.selectedManufacturerId).subscribe(response => {
+    if(this.selectedManufacturer != "-"){
+      this.modelService.getModels(this.selectedManufacturer).subscribe(response => {
         this.models = response;
+        this.generations = [];
+        this.selectedModel = '-';
+        this.selectedGeneration = '-';
       }, error => {
         this.models = [];
         this.generations = [];
+        this.selectedModel = '-';
+        this.selectedGeneration = '-';
       })
     } else {
       this.models = [];
       this.generations = [];
+      this.selectedModel = '-';
+      this.selectedGeneration = '-';
     }
   }
 
   initGenerations(): void {
-    if(this.selectedModelId != "-"){
-      this.generationService.getGenerations(this.selectedModelId).subscribe(response => {
+    if(this.selectedModel != "-"){
+      this.generationService.getGenerations(this.selectedModel).subscribe(response => {
         this.generations = response;
+        this.selectedGeneration = '-';
       }, error => {
         this.generations = [];
+        this.selectedGeneration = '-';
       })
     } else {
       this.generations = [];
+      this.selectedGeneration = '-';
     }
   }
 }

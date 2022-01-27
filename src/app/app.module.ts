@@ -6,11 +6,13 @@ import { MainPageContent } from './components/main-page-content/main-page-conten
 import { HttpClientModule} from "@angular/common/http";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TopBarComponent } from './components/top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageContent
+    MainPageContent,
+    TopBarComponent
   ],
   imports: [
     BrowserModule,

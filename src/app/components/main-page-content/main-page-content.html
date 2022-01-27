@@ -2,21 +2,21 @@
   <div class="row">
     <div class="col-4 input-position text-center">
       <label for="manufacturerSelect">Manufacturer:</label><br>
-      <select id="manufacturerSelect" [(ngModel)]="selectedManufacturerId" (change)="initModels()">
+      <select id="manufacturerSelect" [(ngModel)]="selectedManufacturer" (change)="initModels()">
         <option>-</option>
         <option *ngFor="let manufacturer of manufacturers" [ngValue]="manufacturer.id">{{manufacturer.name}}</option>
       </select>
     </div>
     <div class="col-4 input-position text-center">
       <label for="modelSelect">Model:</label><br>
-      <select id="modelSelect" [(ngModel)]="selectedModelId" (change)="initGenerations()">
+      <select id="modelSelect" [(ngModel)]="selectedModel" (change)="initGenerations()">
         <option>-</option>
         <option *ngFor="let model of models" [ngValue]="model.id">{{model.name}}</option>
       </select>
     </div>
     <div class="col-4 input-position text-center">
       <label for="generationSelect">Generation:</label><br>
-      <select id="generationSelect">
+      <select id="generationSelect" [(ngModel)]="selectedGeneration">
         <option>-</option>
         <option *ngFor="let generation of generations">{{generation.name}}</option>
       </select>
