@@ -1,24 +1,33 @@
-<div class="container">
+<div id="search-specific" class="container bg-light border p-3 mt-3 mx-3 mx-sm-auto"> <!--MARGIN RIGHT NOT WORKING ON EXTRA SMALL ???-->
+  <h4>Looking for something specific?</h4>
+  <hr>
   <div class="row">
-    <div class="col-4 input-position text-center">
-      <label for="manufacturerSelect">Manufacturer:</label><br>
-      <select id="manufacturerSelect" [(ngModel)]="selectedManufacturer" (change)="initModels()">
+    <div class="col-12 col-sm-3 mb-3 mb-sm-auto" align="center">
+      <label class="form-label" for="manufacturerSelect">Manufacturer:</label><br>
+      <select class="form-select" id="manufacturerSelect" [(ngModel)]="selectedManufacturer" (change)="initModels()">
         <option>-</option>
         <option *ngFor="let manufacturer of manufacturers" [ngValue]="manufacturer.id">{{manufacturer.name}}</option>
       </select>
     </div>
-    <div class="col-4 input-position text-center">
-      <label for="modelSelect">Model:</label><br>
-      <select id="modelSelect" [(ngModel)]="selectedModel" (change)="initGenerations()">
+    <div class="col-12 col-sm-3 mb-3 mb-sm-auto" align="center">
+      <label class="form-label" for="modelSelect">Model:</label><br>
+      <select class="form-select" id="modelSelect" [(ngModel)]="selectedModel" (change)="initGenerations()">
         <option>-</option>
         <option *ngFor="let model of models" [ngValue]="model.id">{{model.name}}</option>
       </select>
     </div>
-    <div class="col-4 input-position text-center">
-      <label for="generationSelect">Generation:</label><br>
-      <select id="generationSelect" [(ngModel)]="selectedGeneration">
+    <div class="col-12 col-sm-3 mb-3 mb-sm-auto" align="center">
+      <label class="form-label" for="generationSelect">Generation:</label><br>
+      <select class="form-select" id="generationSelect" [(ngModel)]="selectedGeneration">
         <option>-</option>
         <option *ngFor="let generation of generations">{{generation.name}}</option>
+      </select>
+    </div>
+    <div class="col-12 col-sm-3 mb-3 mb-sm-auto" align="center">
+      <label class="form-label" for="bodytypeSelect">Body type:</label><br>
+      <select class="form-select" id="bodytypeSelect" [(ngModel)]="selectedBodytype">
+        <option>-</option>
+<!--        <option *ngFor="let generation of generations">{{generation.name}}</option>-->
       </select>
     </div>
   </div>

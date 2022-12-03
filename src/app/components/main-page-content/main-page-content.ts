@@ -23,6 +23,8 @@ export class MainPageContent implements OnInit {
   selectedModel = '-';
   generations: Array<Generation> = new Array<Generation>();
   selectedGeneration = '-';
+  //todo
+  selectedBodytype = '-';
 
   ngOnInit(): void {
     this.manufacturerService.getManufacturers().subscribe(response => {
