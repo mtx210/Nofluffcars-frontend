@@ -1,0 +1,244 @@
+{
+  "uuid": "d703f7e4-20dd-4cec-8c72-1f4052726321",
+  "lastMigration": 24,
+  "name": "Nofluffcars backend mock",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 8081,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "8f94822f-4bdf-48ef-b526-b61b12f3446b",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "manufacturers",
+      "responses": [
+        {
+          "uuid": "e7059730-0a69-4650-baff-138b3225394e",
+          "body": "[\n  {\n    \"id\": 7,\n    \"idCountry\": 10,\n    \"name\": \"Acura\"\n  },\n  {\n    \"id\": 8,\n    \"idCountry\": 999,\n    \"name\": \"Aixam\"\n  },\n  {\n    \"id\": 9,\n    \"idCountry\": 6,\n    \"name\": \"Alfa Romeo\"\n  },\n  {\n    \"id\": 10,\n    \"idCountry\": 999,\n    \"name\": \"Alpine\"\n  },\n  {\n    \"id\": 11,\n    \"idCountry\": 5,\n    \"name\": \"Audi\"\n  },\n  {\n    \"id\": 12,\n    \"idCountry\": 999,\n    \"name\": \"Bentley\"\n  },\n  {\n    \"id\": 13,\n    \"idCountry\": 5,\n    \"name\": \"BMW\"\n  },\n  {\n    \"id\": 14,\n    \"idCountry\": 4,\n    \"name\": \"Bugatti\"\n  },\n  {\n    \"id\": 15,\n    \"idCountry\": 1,\n    \"name\": \"Buick\"\n  },\n  {\n    \"id\": 16,\n    \"idCountry\": 1,\n    \"name\": \"Cadillac\"\n  },\n  {\n    \"id\": 17,\n    \"idCountry\": 1,\n    \"name\": \"Chevrolet\"\n  },\n  {\n    \"id\": 18,\n    \"idCountry\": 1,\n    \"name\": \"Chrysler\"\n  },\n  {\n    \"id\": 19,\n    \"idCountry\": 4,\n    \"name\": \"Citroen\"\n  },\n  {\n    \"id\": 20,\n    \"idCountry\": 999,\n    \"name\": \"Cupra\"\n  },\n  {\n    \"id\": 21,\n    \"idCountry\": 999,\n    \"name\": \"Dacia\"\n  },\n  {\n    \"id\": 22,\n    \"idCountry\": 999,\n    \"name\": \"Daewoo\"\n  },\n  {\n    \"id\": 23,\n    \"idCountry\": 999,\n    \"name\": \"Daihatsu\"\n  },\n  {\n    \"id\": 24,\n    \"idCountry\": 999,\n    \"name\": \"DeLorean\"\n  },\n  {\n    \"id\": 25,\n    \"idCountry\": 1,\n    \"name\": \"Dodge\"\n  },\n  {\n    \"id\": 26,\n    \"idCountry\": 999,\n    \"name\": \"DS\"\n  },\n  {\n    \"id\": 27,\n    \"idCountry\": 6,\n    \"name\": \"Ferrari\"\n  },\n  {\n    \"id\": 28,\n    \"idCountry\": 6,\n    \"name\": \"Fiat\"\n  },\n  {\n    \"id\": 29,\n    \"idCountry\": 1,\n    \"name\": \"Ford\"\n  },\n  {\n    \"id\": 30,\n    \"idCountry\": 999,\n    \"name\": \"FSO\"\n  },\n  {\n    \"id\": 31,\n    \"idCountry\": 10,\n    \"name\": \"Honda\"\n  },\n  {\n    \"id\": 32,\n    \"idCountry\": 1,\n    \"name\": \"Hummer\"\n  },\n  {\n    \"id\": 33,\n    \"idCountry\": 999,\n    \"name\": \"Hyundai\"\n  },\n  {\n    \"id\": 34,\n    \"idCountry\": 10,\n    \"name\": \"Infiniti\"\n  },\n  {\n    \"id\": 35,\n    \"idCountry\": 999,\n    \"name\": \"Isuzu\"\n  },\n  {\n    \"id\": 36,\n    \"idCountry\": 999,\n    \"name\": \"Iveco\"\n  },\n  {\n    \"id\": 37,\n    \"idCountry\": 2,\n    \"name\": \"Jaguar\"\n  },\n  {\n    \"id\": 38,\n    \"idCountry\": 999,\n    \"name\": \"Jeep\"\n  },\n  {\n    \"id\": 39,\n    \"idCountry\": 999,\n    \"name\": \"Kia\"\n  },\n  {\n    \"id\": 40,\n    \"idCountry\": 6,\n    \"name\": \"Lamborghini\"\n  },\n  {\n    \"id\": 41,\n    \"idCountry\": 999,\n    \"name\": \"Lancia\"\n  },\n  {\n    \"id\": 42,\n    \"idCountry\": 999,\n    \"name\": \"Land Rover\"\n  },\n  {\n    \"id\": 43,\n    \"idCountry\": 10,\n    \"name\": \"Lexus\"\n  },\n  {\n    \"id\": 44,\n    \"idCountry\": 1,\n    \"name\": \"Lincoln\"\n  },\n  {\n    \"id\": 45,\n    \"idCountry\": 999,\n    \"name\": \"Lotus\"\n  },\n  {\n    \"id\": 46,\n    \"idCountry\": 6,\n    \"name\": \"Maserati\"\n  },\n  {\n    \"id\": 47,\n    \"idCountry\": 5,\n    \"name\": \"Maybach\"\n  },\n  {\n    \"id\": 48,\n    \"idCountry\": 10,\n    \"name\": \"Mazda\"\n  },\n  {\n    \"id\": 49,\n    \"idCountry\": 5,\n    \"name\": \"Mercedes\"\n  },\n  {\n    \"id\": 50,\n    \"idCountry\": 999,\n    \"name\": \"Mercury\"\n  },\n  {\n    \"id\": 51,\n    \"idCountry\": 999,\n    \"name\": \"MG\"\n  },\n  {\n    \"id\": 52,\n    \"idCountry\": 999,\n    \"name\": \"Mini\"\n  },\n  {\n    \"id\": 53,\n    \"idCountry\": 10,\n    \"name\": \"Mitsubishi\"\n  },\n  {\n    \"id\": 54,\n    \"idCountry\": 10,\n    \"name\": \"Nissan\"\n  },\n  {\n    \"id\": 55,\n    \"idCountry\": 5,\n    \"name\": \"Opel\"\n  },\n  {\n    \"id\": 56,\n    \"idCountry\": 4,\n    \"name\": \"Peugeot\"\n  },\n  {\n    \"id\": 57,\n    \"idCountry\": 1,\n    \"name\": \"Plymouth\"\n  },\n  {\n    \"id\": 58,\n    \"idCountry\": 1,\n    \"name\": \"Pontiac\"\n  },\n  {\n    \"id\": 59,\n    \"idCountry\": 5,\n    \"name\": \"Porsche\"\n  },\n  {\n    \"id\": 60,\n    \"idCountry\": 4,\n    \"name\": \"Renault\"\n  },\n  {\n    \"id\": 61,\n    \"idCountry\": 999,\n    \"name\": \"Rolls-Royce\"\n  },\n  {\n    \"id\": 62,\n    \"idCountry\": 999,\n    \"name\": \"Rover\"\n  },\n  {\n    \"id\": 63,\n    \"idCountry\": 999,\n    \"name\": \"Saab\"\n  },\n  {\n    \"id\": 64,\n    \"idCountry\": 10,\n    \"name\": \"Scion\"\n  },\n  {\n    \"id\": 65,\n    \"idCountry\": 3,\n    \"name\": \"Seat\"\n  },\n  {\n    \"id\": 66,\n    \"idCountry\": 9,\n    \"name\": \"Skoda\"\n  },\n  {\n    \"id\": 67,\n    \"idCountry\": 999,\n    \"name\": \"Smart\"\n  },\n  {\n    \"id\": 68,\n    \"idCountry\": 999,\n    \"name\": \"Ssangyong\"\n  },\n  {\n    \"id\": 69,\n    \"idCountry\": 10,\n    \"name\": \"Subaru\"\n  },\n  {\n    \"id\": 70,\n    \"idCountry\": 10,\n    \"name\": \"Suzuki\"\n  },\n  {\n    \"id\": 71,\n    \"idCountry\": 1,\n    \"name\": \"Tesla\"\n  },\n  {\n    \"id\": 72,\n    \"idCountry\": 10,\n    \"name\": \"Toyota\"\n  },\n  {\n    \"id\": 73,\n    \"idCountry\": 5,\n    \"name\": \"Volkswagen\"\n  },\n  {\n    \"id\": 74,\n    \"idCountry\": 8,\n    \"name\": \"Volvo\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "4380da9b-59f3-4a52-94ed-b4bed89b7d2b",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "models/manufacturer/11",
+      "responses": [
+        {
+          "uuid": "3c546b7a-b2da-4e06-90b9-a76316343c7f",
+          "body": "[\n  {\n    \"id\": 4,\n    \"idManufacturer\": 11,\n    \"name\": \"A4\"\n  },\n  {\n    \"id\": 5,\n    \"idManufacturer\": 11,\n    \"name\": \"A6\"\n  },\n  {\n    \"id\": 6,\n    \"idManufacturer\": 11,\n    \"name\": \"A8\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "b90eaaec-a5b1-4712-a2f5-9d22d0cf6fc0",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "models/manufacturer/13",
+      "responses": [
+        {
+          "uuid": "14bd3e75-1f9c-4e7f-90df-99ae3e0e8d0f",
+          "body": "[\n  {\n    \"id\": 1,\n    \"idManufacturer\": 13,\n    \"name\": \"3 series\"\n  },\n  {\n    \"id\": 2,\n    \"idManufacturer\": 13,\n    \"name\": \"5 series\"\n  },\n  {\n    \"id\": 3,\n    \"idManufacturer\": 13,\n    \"name\": \"7 series\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "3e9998c4-42d8-4546-8bbf-ff6b297c8f62",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "models/manufacturer/49",
+      "responses": [
+        {
+          "uuid": "4dabf79a-a529-406e-b96c-0d2b33c6141f",
+          "body": "[\n  {\n    \"id\": 7,\n    \"idManufacturer\": 49,\n    \"name\": \"C class\"\n  },\n  {\n    \"id\": 8,\n    \"idManufacturer\": 49,\n    \"name\": \"E class\"\n  },\n  {\n    \"id\": 9,\n    \"idManufacturer\": 49,\n    \"name\": \"S class\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "c33e891e-dd6e-46d4-9c2f-3ded9a17e441",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "generations/model/1",
+      "responses": [
+        {
+          "uuid": "77eb6db9-d4ef-4562-a9d2-361e0245aa5a",
+          "body": "[\n  {\n    \"id\": 1,\n    \"name\": \"E30\"\n  },\n  {\n    \"id\": 2,\n    \"name\": \"E36\"\n  },\n  {\n    \"id\": 3,\n    \"name\": \"E46\"\n  },\n  {\n    \"id\": 8,\n    \"name\": \"E21\"\n  },\n  {\n    \"id\": 9,\n    \"name\": \"E90/1/2/3\"\n  },\n  {\n    \"id\": 10,\n    \"name\": \"F30/1/4\"\n  },\n  {\n    \"id\": 11,\n    \"name\": \"G20/1\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "387f499b-f64b-4874-8ff6-2ba49d933bce",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "generations/model/2",
+      "responses": [
+        {
+          "uuid": "b1d5c8ac-85d5-4a59-a378-50bb7cd22de0",
+          "body": "[\n  {\n    \"id\": 12,\n    \"name\": \"E12\"\n  },\n  {\n    \"id\": 13,\n    \"name\": \"E28\"\n  },\n  {\n    \"id\": 14,\n    \"name\": \"E34\"\n  },\n  {\n    \"id\": 15,\n    \"name\": \"E39\"\n  },\n  {\n    \"id\": 16,\n    \"name\": \"E60\"\n  },\n  {\n    \"id\": 17,\n    \"name\": \"F10/1\"\n  },\n  {\n    \"id\": 18,\n    \"name\": \"G30/1\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    },
+    {
+      "uuid": "387e1bbf-3e5b-4ff1-8fdd-4c90c25f4d32",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "generations/model/3",
+      "responses": [
+        {
+          "uuid": "d76d4d70-b0c1-49c3-8f51-2b25deb9d6fc",
+          "body": "[\n  {\n    \"id\": 19,\n    \"name\": \"E23\"\n  },\n  {\n    \"id\": 20,\n    \"name\": \"E32\"\n  },\n  {\n    \"id\": 21,\n    \"name\": \"E38\"\n  },\n  {\n    \"id\": 22,\n    \"name\": \"E65\"\n  },\n  {\n    \"id\": 23,\n    \"name\": \"F01\"\n  },\n  {\n    \"id\": 24,\n    \"name\": \"G11/2\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
